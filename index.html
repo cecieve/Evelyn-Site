@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa dos Brinquedos - Loja de Brinquedos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js"></script>
+
+    </body>
+</head>
+
+
+
+
+<body>
+    <!-- Header e Navegação -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-child"></i> Casa dos Brinquedos</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Início</a></li>
+                    <li class="dropdown">
+                        <a href="#brinquedos">Brinquedos <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#femininos">Brinquedos Femininos</a>
+                            <a href="#masculinos">Brinquedos Masculinos</a>
+                            <a href="#jogos-tabuleiro">Jogos de Tabuleiro</a>
+                        </div>
+                    </li>
+                    <li><a href="#material-escolar">Material Escolar</a></li>
+                    <li><a href="./index.html">Sobre Nós</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="./carrinho.html" class="cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>0</span>
+                </a>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Seção Hero com Vídeo de Fundo -->
+    <section id="home" class="hero">
+        <div class="video-background">
+            <video autoplay muted loop playsinline>
+                <source src="./imagens/VideoCE ‐ Feito com o Clipchamp.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos HTML5.
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+
+        <div class="container">
+            <div class="hero-content">
+                <h2>Brinquedos que Inspiram <span>Sonhos</span></h2>
+                <p>Na Casa dos Brinquedos, acreditamos que cada brinquedo é uma oportunidade de aprendizado e
+                    diversão.
+                    Descubra nosso universo mágico!</p>
+                <a href="#brinquedos" class="btn">Explorar Brinquedos</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre a Casa dos Brinquedos</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Há mais de 20 anos no mercado, a Casa dos Brinquedos é referência em brinquedos educativos e
+                        materiais
+                        escolares de qualidade. Nossa missão é proporcionar experiências que desenvolvam a
+                        criatividade,
+                        o raciocínio e a coordenação motora das crianças.</p>
+                    <p>Trabalhamos apenas com produtos certificados e seguros, priorizando marcas reconhecidas e
+                        materiais de alta durabilidade. Nossa equipe é formada por especialistas em desenvolvimento
+                        infantil, sempre prontos para ajudar na escolha do brinquedo ideal para cada fase.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <h4>Produtos Seguros</h4>
+                            <p>Todos os brinquedos seguem rigorosos padrões de segurança</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-truck"></i>
+                            <h4>Entrega Rápida</h4>
+                            <p>Entregamos em todo o Brasil em até 10 dias úteis</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h4>Educativo</h4>
+                            <p>Brinquedos selecionados para estimular o desenvolvimento</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+                        alt="Loja de brinquedos">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="femininos" class="femininos carousel-section">
+        <div class="container">
+            <h2 class="section-title">Brinquedos Femininos</h2>
+
+            <div class="carousel-container">
+                <div class="products-carousel" id="carousel-femininos">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./imagens/casa de bonecas 3 andares.png" alt="Casa de Bonecas">
+                        </div>
+                        <div class="product-info">
+                            <h4>Casa da Barbie 3 Andares</h4>
+                            <p>Uma casa completa com móveis, acessórios e 4 bonecas. Desenvolve a criatividade e
+                                habilidades
+                                sociais.</p>
+                            <div class="product-price">R$ 299,90</div>
+                            <a href="#" class="btn">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./imagens/kit maquiagem infantil.png" alt="Kit Maquiagem Infantil">
+                        </div>
+                        <div class="product-info">
+                            <h4>Kit Maquiagem Infantil</h4>
+                            <p>Kit completo com esmaltes, batons e sombras hipoalergênicos. Perfeito para horas de
+                                diversão
+                                criativa.</p>
+                            <div class="product-price">R$ 89,90</div>
+                            <a href="#" class="btn">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./imagens/boneca amiga mia.png" alt="Boneca Interativa">
+                        </div>
+                        <div class="product-info">
+                            <h4>Boneca Interativa Amiga Mia</h4>
+                            <p>Boneca que fala, canta e interage com a criança. Inclui 5 frases e 2 músicas. Desenvolve
+                                a
+                                empatia.</p>
+                            <div class="product-price">R$ 159,90</div>
+                            <a href="#" class="btn">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./imagens/kit culinaria infantil.png" alt="Kit Culinária Infantil">
+                        </div>
+                        <div class="product-info">
+                            <h4>Kit Culinária Infantil</h4>
+                            <p>Fogão, panelas e utensílios de cozinha em tamanho reduzido. Ideal para brincadeiras de
+                                faz de
+                                conta.</p>
+                            <div class="product-price">R$ 199,90</div>
+                            <a href="#" class="btn">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./imagens/penteadeira infantil.png" alt="Salão de beleza infantil">
+                        </div>
+                        <div class="product-info">
+                            <h4>Salão de beleza infantil</h4>
+                            <p> Mesa de beleza com espelho, pentes, escovas e acessórios de maquiagem infantil.</p>
+                            <div class="product-price">R$ 199,90</div>
+                            <a href="#" class="btn">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./imagens/caixa registradora.jpg" alt="Caixa registradora da Barbie">
+                        </div>
+                        <div class="product-info">
+                            <h4>Castelo de princesa encantado</h4>
+                            <p>Castelo com torres, ponte levadiça, sala do trono e princesas inclusas.</p>
+                            <div class="product-price">R$ 359,90</div>
+                            <a href="#" class="btn">Comprar</a>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-nav prev" data-target="carousel-femininos"
+                    aria-label="Anterior">&#10094;</button>
+                <button class="carousel-nav next" data-target="carousel-femininos"
+                    aria-label="Próximo">&#10095;</button>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section id="masculinos" class="masculine carousel-section">
+        <div class="container">
+            <h2 class="section-title">Brinquedos Masculinos</h2>
+
+            <div class="carousel-container">
+                <div class="products-carousel" id="carousel-masculinos">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./imagens/kit ferramentas infantil.png" alt="Kit Ferramentas Infantil">
+                        </div>
+                        <div class="product-info">
+                            <h4>Kit Ferramentas Infantil</h4>
+                            <p>Maleta completa com martelo, chave de fenda, serrote e mais 15 peças. Desenvolve
+                                habilidades
+                                manuais.</p>
+                            <div class="product-price">R$ 129,90</div>
+                            <a href="#" class="btn">Comprar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./imagens/pista de carrinho 2 metros.png" alt="Pista de Carrinhos">
+                        </div>
+                        <div class="product-info">
+                            <h4>Pista de Carrinhos 2 Metros</h4>
+                            <p>Pista com loops, curvas e 2 carrinhos. Desenvolve noções de física e coordenação motora.
+                            </p>
+                            <div class="product-price">R$ 189,90</div>
+                            <a href="#" class="btn">Comprar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./imagens/homem aranha.png" alt="Super-Herói Articulado">
+                        </div>
+                        <div class="product-info">
+                            <h4>Super-Herói Articulado</h4>
+                            <p>Figura de ação com 12 pontos de articulação e acessórios. Perfeito para criar histórias
+                                emocionantes.</p>
+                            <div class="product-price">R$ 79,90</div>
+                            <a href="#" class="btn">Comprar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./imagens/kit construçao.webp" alt="Kit Construção 500 Peças">
+                        </div>
+                        <div class="product-info">
+                            <h4>Kit Construção 500 Peças</h4>
+                            <p>Blocos de montar compatíveis com principais marcas. Inclui manual com 20 modelos
+                                diferentes.
+                            </p>
+                            <div class="product-price">R$ 149,90</div>
+                            <a href="#" class="btn">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./imagens/kit ferramentas infantil.png" alt="Kit Ferramentas Infantil">
+                        </div>
+                        <div class="product-info">
+                            <h4>Kit Ferramentas Infantil</h4>
+                            <p>Maleta completa com martelo, chave de fenda, serrote e mais 15 peças. Desenvolve
+                                habilidades
+                                manuais.</p>
+                            <div class="product-price">R$ 129,90</div>
+                            <a href="#" class="btn">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-nav prev" data-target="carousel-masculinos"
+                    aria-label="Anterior">&#10094;</button>
+                <button class="carousel-nav next" data-target="carousel-masculinos"
+                    aria-label="Próximo">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="jogos-tabuleiro" class="jogos-tabuleiro carousel-section">
+        <div class="container">
+            <h2 class="section-title">Jogos de Tabuleiro</h2>
+            <div class="intro">
+                <p>Reúna a família e os amigos para momentos inesquecíveis com nossa seleção de jogos de tabuleiro para
+                    todas as idades!</p>
+            </div>
+
+            <div class="carousel-container">
+                <div class="products-carousel" id="carousel-jogos">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./imagens/banco imobiliario 2.jpg" alt="Banco Imobiliário">
+                        </div>
+                        <div class="product-info">
+                            <h4>Banco Imobiliário</h4>
+                            <p>O clássico jogo de negociação e estratégia. Desenvolve habilidades matemáticas e de
+                                planejamento.</p>
+                            <div class="product-details">
+                                <span><i class="fas fa-users"></i> 2-6 jogadores</span>
+                                <span><i class="fas fa-clock"></i> 60-180 min</span>
+                                <span><i class="fas fa-birthday-cake"></i> 8+ anos</span>
+                            </div>
+                            <div class="product-price">R$ 89,90</div>
+                            <a href="#" class="btn">Comprar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./imagens/war estrategia.png" alt="War">
+                        </div>
+                        <div class="product-info">
+                            <h4>War Estratégia</h4>
+                            <p>Domine o mundo com estratégia militar. Desenvolve pensamento tático e habilidades de
+                                negociação.</p>
+                            <div class="product-details">
+                                <span><i class="fas fa-users"></i> 2-6 jogadores</span>
+                                <span><i class="fas fa-clock"></i> 120-360 min</span>
+                                <span><i class="fas fa-birthday-cake"></i> 10+ anos</span>
+                            </div>
+                            <div class="product-price">R$ 129,90</div>
+                            <a href="#" class="btn">Comprar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./imagens/detetive.png" alt="Detetive">
+                        </div>
+                        <div class="product-info">
+                            <h4>Detetive</h4>
+                            <p>Resolva mistérios usando dedução lógica. Desenvolve raciocínio crítico e atenção aos
+                                detalhes.</p>
+                            <div class="product-details">
+                                <span><i class="fas fa-users"></i> 3-6 jogadores</span>
+                                <span><i class="fas fa-clock"></i> 45-90 min</span>
+                                <span><i class="fas fa-birthday-cake"></i> 8+ anos</span>
+                            </div>
+                            <div class="product-price">R$ 69,90</div>
+                            <a href="#" class="btn">Comprar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./imagens/jogo da vida.png" alt="Jogo da Vida">
+                        </div>
+                        <div class="product-info">
+                            <h4>Jogo da Vida</h4>
+                            <p>Viva uma jornada desde a faculdade até a aposentadoria. Ensina sobre escolhas e
+                                consequências.</p>
+                            <div class="product-details">
+                                <span><i class="fas fa-users"></i> 2-6 jogadores</span>
+                                <span><i class="fas fa-clock"></i> 60-90 min</span>
+                                <span><i class="fas fa-birthday-cake"></i> 8+ anos</span>
+                            </div>
+                            <div class="product-price">R$ 99,90</div>
+                            <a href="#" class="btn">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-nav prev" data-target="carousel-jogos" aria-label="Anterior">&#10094;</button>
+                <button class="carousel-nav next" data-target="carousel-jogos" aria-label="Próximo">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="material-escolar" class="material-escolar">
+        <div class="container">
+            <h2 class="section-title">Material Escolar</h2>
+
+            <div class="intro">
+                <p>Tudo o que seu filho precisa para um ano letivo cheio de sucesso e organização! Encontre cadernos,
+                    estojos e mochilas.</p>
+            </div>
+
+            <div class="promo-banner">
+                <img src="./imagens/mochila_aberta-removebg-preview.png" alt="Kit Material Escolar Completo"
+                    class="promo-imagem">
+
+                <div class="promo-content">
+                    <h3>Kit Material Escolar Completo</h3>
+
+                    <p>Adquira nosso kit completo com todos os itens necessários para o ano letivo com <strong>15% de
+                            desconto</strong>!</p>
+
+                    <div class="promo-compra">
+                        <div class="kit-price">
+                            <span class="old-price">R$ 250,00</span>
+                            <span class="new-price">R$ 212,50</span>
+                        </div>
+                    </div>
+
+                    <a href="#" class="btn btn-principal">Adicionar ao Carrinho</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nova seção: Mapa -->
+    <section class="mapa">
+        <div class="container">
+            <h2>Onde estamos</h2>
+            <div class="mapa-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.368415039337!2d-43.17947488448992!3d-22.90244384346772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f5e5b2e9c5d%3A0x3c6acf4b3c229c4e!2sPra%C3%A7a%20Mau%C3%A1%20-%20Centro%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020081-240!5e0!3m2!1spt-BR!2sbr!4v1629990000000!5m2!1spt-BR!2sbr"
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="diferenciais">
+        <div class="container">
+            <h2>Por que comprar na Casa dos Brinquedos?</h2>
+            <div class="diferenciais-grid">
+                <div class="diferencial">
+                    <div class="icone-diferencial">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h3>Entrega Rápida</h3>
+                    <p>Receba em até 48h na região metropolitana</p>
+                </div>
+                <div class="diferencial">
+                    <div class="icone-diferencial">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Compra Segura</h3>
+                    <p>Seus dados protegidos com criptografia</p>
+                </div>
+                <div class="diferencial">
+                    <div class="icone-diferencial">
+                        <i class="fas fa-undo"></i>
+                    </div>
+                    <h3>Troca Facilitada</h3>
+                    <p>30 dias para trocar seu produto</p>
+                </div>
+                <div class="diferencial">
+                    <div class="icone-diferencial">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3>Presente Perfeito</h3>
+                    <p>Embalagem especial para presente</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2 class="section-title">Fale Conosco</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Entre em Contato</h3>
+                    <p>Tem dúvidas sobre nossos produtos? Precisa de ajuda para escolher o brinquedo ideal? Nossa
+                        equipe
+                        está pronta para ajudar!</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Endereço</h4>
+                                <p>Rua dos Brinquedos, 123 - Centro<br>São Paulo - SP, 01234-567</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Telefone</h4>
+                                <p>(11) 3456-7890</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>E-mail</h4>
+                                <p>contato@casadosbrinquedos.com.br</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Horário de Atendimento</h4>
+                                <p>Segunda a Sexta: 9h às 18h<br>Sábados: 9h às 13h</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Assunto</label>
+                            <select id="subject" name="subject">
+                                <option value="">Selecione um assunto</option>
+                                <option value="duvida">Dúvida sobre produto</option>
+                                <option value="sugestao">Sugestão</option>
+                                <option value="reclamacao">Reclamação</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Modal (adicionar no final do body) -->
+    <div id="modal-produto" class="modal">
+        <div class="modal-conteudo">
+            <span class="fechar">&times;</span>
+            <div class="modal-corpo">
+                <div class="modal-imagem">
+                    <img src="" alt="Produto" id="modal-img">
+                </div>
+                <div class="modal-info">
+                    <h2 id="modal-titulo"></h2>
+                    <p id="modal-descricao"></p>
+                    <div class="modal-preco" id="modal-preco"></div>
+                    <div class="quantidade">
+                        <label>Quantidade:</label>
+                        <input type="number" min="1" value="1">
+                    </div>
+                    <button class="btn-comprar">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Sobre Nós</h3>
+                <p>A Casa dos Brinquedos é uma loja especializada em oferecer os melhores brinquedos educativos e de
+                    entretenimento para crianças de todas as idades.</p>
+                <div class="social-icons">
+                    <a href="https://wa.me/5511999999999" target="_blank" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://instagram.com/casadosbrinquedos" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://tiktok.com/@casadosbrinquedos" target="_blank" aria-label="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="mailto:contato@casadosbrinquedos.com.br" aria-label="E-mail">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Início</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Produtos</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Sobre Nós</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Contato</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Política de Troca</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <ul>
+                    <li>
+                        <a href="https://wa.me/5511999999999" target="_blank">
+                            <i class="fab fa-whatsapp"></i> (11) 99999-9999
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:contato@casadosbrinquedos.com.br">
+                            <i class="far fa-envelope"></i> contato@casadosbrinquedos.com.br
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-map-marker-alt"></i> Rua dos Brinquedos, 123 - São Paulo, SP
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="far fa-clock"></i> Seg à Sex: 9h às 18h | Sáb: 9h às 13h
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2023 Casa dos Brinquedos - Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Seleciona todos os botões de navegação
+            const navButtons = document.querySelectorAll('.carousel-nav');
+
+            navButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Pega o ID do carrossel alvo (ex: 'carousel-femininos')
+                    const targetId = button.getAttribute('data-target');
+                    const carousel = document.getElementById(targetId);
+
+                    if (carousel) {
+                        // Largura do card (ajuste se mudar o CSS)
+                        // Pega a largura do primeiro card do carrossel, incluindo a margem
+                        const firstCard = carousel.querySelector('.product-card');
+                        const cardStyle = window.getComputedStyle(firstCard);
+                        const cardWidth = firstCard.offsetWidth; // Largura do card
+                        const cardMarginRight = parseFloat(cardStyle.marginRight); // Margem entre cards
+
+                        // Distância de rolagem: largura do card + margem
+                        const scrollDistance = cardWidth + cardMarginRight;
+
+                        // Determina a direção
+                        const direction = button.classList.contains('next') ? 1 : -1;
+
+                        // Rola a distância calculada
+                        carousel.scrollBy({
+                            left: direction * scrollDistance,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
